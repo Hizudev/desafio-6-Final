@@ -1,0 +1,133 @@
+/* GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #7028e4;
+  padding-bottom: 1em;
+}
+
+/* HEADER */
+
+.pheader {
+  background-image: linear-gradient(
+      135deg,
+      #667eea74 0%,
+      rgba(118, 75, 162, 0.722) 100%
+    ),
+    url("../imgs/imgHeader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+}
+
+/* ABOUT ME */
+
+.main-box {
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.text-box {
+  color: #330867;
+  text-align: justify;
+  padding-right: 2em;
+}
+
+.image-box {
+  border-radius: 50%;
+  border: solid #33104e;
+  box-shadow: 0 0 2px 0 #33104e;
+}
+
+/* PROYECTOS */
+
+.proyect-box {
+  margin: 0;
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  border: solid #b490ca 1px;
+}
+
+.card i {
+  padding-top: 0.3em;
+  color: #f43b47;
+}
+
+.card-title {
+  color: white;
+}
+.card:hover {
+  border: solid black 1px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+/* CARRUSEL */
+
+.carrusel-cf {
+  padding-bottom: 5em;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.carrusel-cf h1 {
+  color: white;
+  padding-top: 1em;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #330867;
+  color: white;
+}
+
+/* DIVISIONES */
+
+.ola1 {
+  fill: #fed6e3;
+}
+
+.ola2 {
+  background-color: #e5b2ca;
+  fill: #a8edea;
+}
+
+.ola3 {
+  background-color: #7028e4;
+  fill: #330867;
+}
