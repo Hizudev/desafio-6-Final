@@ -45,7 +45,7 @@ h1 {
   padding-right: 5em;
   padding-bottom: 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
