@@ -13,6 +13,7 @@ html {
 h1 {
   color: #7028e4;
   padding-bottom: 1em;
+  font-family: 'Oleo Script', cursive;
 }
 
 
@@ -113,7 +114,7 @@ h1 {
 }
 
 .carrusel-cf h1 {
-  color: white;
+  color: #30cfd0;
   padding-top: 1em;
 }
 
