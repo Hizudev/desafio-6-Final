@@ -15,6 +15,14 @@ h1 {
   padding-bottom: 1em;
 }
 
+
+/* NAVBAR */
+
+.navbar-font{
+  font-family: 'Oleo Script', cursive;
+}
+
+
 /* HEADER */
 
 .pheader {
