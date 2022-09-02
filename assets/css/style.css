@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+h1 , h2 {
   color: #7028e4;
   padding-bottom: 1em;
   font-family: 'Oleo Script', cursive;
@@ -113,7 +113,7 @@ h1 {
   justify-content: center;
 }
 
-.carrusel-cf h1 {
+.carrusel-cf h2 {
   color: #30cfd0;
   padding-top: 1em;
 }
@@ -121,8 +121,36 @@ h1 {
 /* FOOTER */
 
 footer {
-  background-color: #330867;
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
   color: white;
+}
+
+footer h2{
+  color: #330867;
+  padding-left: 1rem;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer div{
+  display: flex;
+}
+
+footer i{
+  padding-right: 10px;
+}
+
+footer a{
+  color: white;
+}
+
+.datos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* DIVISIONES */
