@@ -10,19 +10,18 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 , h2 {
+h1,
+h2 {
   color: #7028e4;
   padding-bottom: 1em;
-  font-family: 'Oleo Script', cursive;
+  font-family: "Oleo Script", cursive;
 }
-
 
 /* NAVBAR */
 
-.navbar-font{
-  font-family: 'Oleo Script', cursive;
+.navbar-font {
+  font-family: "Oleo Script", cursive;
 }
-
 
 /* HEADER */
 
@@ -120,34 +119,39 @@ h1 , h2 {
 
 /* FOOTER */
 
+.footer-img{
+  max-width: 500px;
+}
+
 footer {
   background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
   color: white;
 }
 
-footer h2{
+footer h2 {
   color: #330867;
   padding-left: 1rem;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-footer div{
+footer div {
   display: flex;
 }
 
-footer i{
+footer i {
   padding-right: 10px;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
-.datos{
+.datos {
   display: flex;
   flex-direction: column;
   justify-content: center;
